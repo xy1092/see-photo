@@ -1,0 +1,15 @@
+fastapi>=0.109.0
+uvicorn[standard]>=0.25.0
+httpx>=0.26.0
+pyyaml>=6.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# OCR 引擎（二选一）
+# 方案1：PaddleOCR — 中文识别最强（推荐）
+paddleocr>=2.7.0
+paddlepaddle>=2.5.0
+
+# 方案2：EasyOCR — 更轻量，跨平台兼容更好
+# 如果 PaddleOCR 安装困难请改用这个
+# easyocr>=1.7.0
